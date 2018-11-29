@@ -4,11 +4,11 @@ title:      "Introduction to Latex - Resume"
 subtitle:   "Latex, Resume"
 date:       2018-11-29
 author:     "Xinyue Wang"
-image:  "img/post-morisset.jpg"
+image:  "img/post-code.jpg"
 tags:
-    - latex
+    - Latex
 URL: "/latex-introduction/"
-categories: [ Tech ]
+categories: [ "Tech" ]
 ---
 
 # Placeholder

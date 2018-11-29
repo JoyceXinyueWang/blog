@@ -1,13 +1,56 @@
 ---
 layout:     post
 title:      "About Me"
-subtitle:   "Data scientist at Macquarie Bank, Machine learning engineer at Data61, Advanced Math & Computer Science graduate from USYD, Math master in UNSW"
+subtitle:   "Data scientist, Machine learning engineer, Math & Computer Science"
 date:       2018-11-29
 author:     "Xinyue Wang"
 URL: "aboutme"
 image:      "img/post-bg-coffee.jpeg"
 ---
 
+Xinyue (Joyce) Wang
+============
+
+-------------------     ----------------------------
+1 MyAddress                        email@example.com
+MyTown 1000                          @twitter_handle
+MyCountry                           1800 my-phone-nr
+-------------------     ----------------------------
+
+Experience
+----------
+
+**Data Scientist at Macquarie Bank**
+
+* *Placeholder*
+* *Placeholder*
+
+**Machine Learning Engineer at Data61, CSIRO**
+
+* *Design software, compose machine learning pipelines and develop components of sophisticated machine learning software tools in Python that are deployed into real deployment applications*
+* *Specialize in Python programming with packages Numpy, Scipy, Pandas, Scikit-Learn, Tensorflow and Keras*
+
+**Summer Research Scholar at University of Sydney**
+
+* *Statistical learning application in bioinformatic research, supervised by Professor Jean Yang from School of Mathematics and Statistics*
+
+
+Education
+---------
+
+**Master of Mathematics**
+
+* *2018-2020 (expected); University of New South Wales*
+* *Applied Mathematics, Probability Theory, Machine learning*
+
+**Bachelor of Science (Advanced Mathematics)**
+
+* *2014-2016; University of Sydney*
+*  *Financial Mathematics, Computer Science*
+*  *High Distinction Average and holder of various merit-based scholarships*
+
+
+<!--
 # Experience
 
 * Data Scientist at Macquarie Bank (Jan 2019 - Present)
@@ -32,4 +75,4 @@ image:      "img/post-bg-coffee.jpeg"
 
 * Master of Mathematics
   * University of New South Wales
-  * Applied Mathematics
+  * Applied Mathematics -->
