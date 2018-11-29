@@ -15,7 +15,7 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/home-bg-jeep.jpg"
   SEOTitle = "Xinyue's Blog"
-  description = "Xinyue (Joyce) Wang, Data Scientist at Macquarie, Machine Learning Engineer, Advanced Mathematics & Computer Science Graduate"
+  description = "Xinyue (Joyce) Wang, Data Scientist, Machine Learning Engineer, Advanced Mathematics & Computer Science Graduate"
   keyword = "JoyceXinyueWang, Machine Learning, Mathematics, Data Science"
   slogan = "路在脚下，心向远方"
 
