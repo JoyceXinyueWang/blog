@@ -1,0 +1,97 @@
+baseurl = ""
+title = "Xinyue Blog"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/home-bg-jeep.jpg"
+  SEOTitle = "Xinyue's Blog"
+  description = "Xinyue (Joyce) Wang, Data Scientist at Macquarie, Machine Learning Engineer, Advanced Mathematics & Computer Science Graduate"
+  keyword = "JoyceXinyueWang, Machine Learning, Mathematics, Data Science"
+  slogan = "路在脚下，心向远方"
+
+  image_404 = "img/404-bg.jpg"
+  title_404 = "你来到了没有知识的荒原 :("
+
+  # leancloud storage for page view counter
+  page_view_conter = false
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "Data Scientist, Machine Learning Engineer, Mathematics, Computer Science"
+  sidebar_avatar = "img/arity.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true
+  featured_condition_size = 2
+
+  # Baidu Analytics
+  ba_track_id = ""
+
+  # We need a proxy to access Disqus api in China
+  disqus_proxy = ""
+  disqus_site = ""
+
+  #wechat pay & alipay
+  reward = false
+  # reward_guide = "如果这篇文章对你有用，请随意打赏"
+
+  [params.social]
+  rss            = true
+  email          = "joyce.xinyue.wang@gmail.com"
+  facebook      = "https://www.facebook.com/xinyue.wang.927?ref=bookmarks"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  linkedin       = "https://www.linkedin.com/in/xinyuewang/"
+  # stackoverflow  = "full profile url in stackoverflow"
+  instagram     = "https://www.instagram.com/xinyueeer/?hl=en"
+  github         = "https://github.com/JoyceXinyueWang"
+  # wechat         = "link of wechat QR code image"
+  #pinterest     = "full profile url in pinterest"
+  #medium        = "full profile url in medium"
+
+  friends = true
+
+  [[params.friend_link]]
+  title = "Xinyue Blog"
+  href =  "https://zhaozhihan.com"
+
+  bookmarks = true
+
+  # [[params.bookmark_link]]
+  # title =  "Martin Fowler"
+  # href =  "https://martinfowler.com"
+  # [[params.bookmark_link]]
+  # title = "ServiceMesh中文网"
+  # href =  "http://www.servicemesh.cn"
+  # [[params.bookmark_link]]
+  # title = "Awesome Service Mesh"
+  # href = "https://servicemesh.gitbooks.io/awesome-servicemesh"
+  # [[params.bookmark_link]]
+  # title =  "Image Compression"
+  # href = "https://tinypng.com"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
